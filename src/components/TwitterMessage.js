@@ -16,7 +16,7 @@ class TwitterMessage extends React.Component {
   }
 
   render() {
-    console.log(this.props.maxChars)
+    console.log(this.state.maxChars)
     return (
       <div>
         <strong>Your message:</strong>
